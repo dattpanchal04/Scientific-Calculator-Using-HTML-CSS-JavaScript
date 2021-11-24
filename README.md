@@ -1,6 +1,8 @@
 
 # Scientific Calculator Using HTML, CSS & Javascript
 
+![Screenshot (102)](https://user-images.githubusercontent.com/94067118/143278112-ea89e361-3927-4d73-9359-dad50fb096ec.png)
+
 This is a Scientific Calc created using HTML, CSS & JavaScript. It is made by me. This scientific calculator performs functions beyond addition, subtraction, multiplication and division. AA scientific calculator usually has special buttons for parentheses, trigonometric functions, exponents, inverses and pi -- among other things. All the mathematical operation you can run on this online calculator. So, check out this amazing project & Thank you for visit!
 
 
