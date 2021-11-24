@@ -1,0 +1,137 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: aliceblue;
+}
+.container{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px black;
+}
+.container #screen{
+    width: 97%;
+    height: 43px;
+    text-align: right;
+    border: 1px solid gray;
+    border-radius: 7px;
+    font-size: 35px;
+    box-shadow: 2px 2px 6px black;
+}
+.container .btns{
+    width: 100%;
+    margin-top: 1.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.container .btns .row button{
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px;
+    outline: none;
+    box-shadow: 2px 2px 8px black;
+}
+.container .btns .row button:hover{
+    cursor: pointer;
+    background-color: rgb(207, 216, 224);
+}
+.text{
+    position: absolute;
+    bottom: 0;
+    font-size: 21px;
+    font-family: monospace;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+}
+.text #btn{
+    width: 76px;
+    height: 32px;
+    margin: 10px 0px;
+    background-color: darkslategrey;
+    color: wheat;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: monospace;
+}
+.text #btn:hover{
+    cursor: pointer;
+    background-color: rgb(27, 46, 46);
+    text-decoration: underline;
+}
+#eval{
+    background-color: rgb(7, 220, 248);
+}
+#eval:hover{
+    background-color: rgb(43, 173, 190);
+}
+#ac{
+    background-color: rgb(77, 255, 7);
+}
+#ac:hover{
+    background-color: rgb(85, 177, 48);
+}
+#ce{
+    background-color: rgb(243, 6, 251);
+}
+#ce:hover{
+    background-color: rgb(160, 20, 165);
+}
+
+
+/* Responsive Code */
+@media screen and (max-width: 580px) {
+    .container .btns .row button{
+        width: 45px;
+    }
+    .container #screen{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .container .btns .row button{
+        width: 33px;
+    }
+    .container{
+        width: 85%;
+        height: 60vh;
+    }
+}
+@media screen and (max-width: 360px) {
+    .container .btns .row button{
+       width: 28px;
+   }
+   .container #screen{
+       font-size: 24px;
+   }
+}
+@media screen and (max-width: 320px) {
+    .container .btns .row button{
+       width: 21px;
+       font-size: 14px;
+   }
+   .container #screen{
+       font-size: 20px;
+   }
+   .container{
+       height: 57vh;
+   }
+}
