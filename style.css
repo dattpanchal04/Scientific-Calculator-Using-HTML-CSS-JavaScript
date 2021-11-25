@@ -50,33 +50,6 @@ body{
     cursor: pointer;
     background-color: rgb(207, 216, 224);
 }
-.text{
-    position: absolute;
-    bottom: 0;
-    font-size: 21px;
-    font-family: monospace;
-    font-weight: bold;
-    padding: 5px;
-    text-align: center;
-    margin: 10px 0px 0px 0px;
-}
-.text #btn{
-    width: 76px;
-    height: 32px;
-    margin: 10px 0px;
-    background-color: darkslategrey;
-    color: wheat;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
-    font-family: monospace;
-}
-.text #btn:hover{
-    cursor: pointer;
-    background-color: rgb(27, 46, 46);
-    text-decoration: underline;
-}
 #eval{
     background-color: rgb(7, 220, 248);
 }
